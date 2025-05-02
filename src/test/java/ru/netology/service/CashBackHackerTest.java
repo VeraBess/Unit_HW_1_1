@@ -19,7 +19,7 @@ class CashBackHackerTest {
         CashBackHacker cashBackHacker = new CashBackHacker();
 
         int actual = cashBackHacker.remain(1_000);
-        int expected = 1_000;
+        int expected = 0;
 
         assertEquals(expected, actual);
     }
